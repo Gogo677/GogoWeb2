@@ -4,52 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diego Jimenez Gonzalez</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header>
-        <div class="Logo">
-            <h1>Diego Jimenez Gonzalez</h1>
-            <h2>Software Engineer</h2>
-        </div>
+        <h1>Diego Jimenez Gonzalez</h1>
         <nav>
-            <ul>
-                <li><a href="#inicio"></a>Inicio</li>
-                <li><a href="#tecnologias"></a>Tecnologias</li>
-                <li><a href="#proyectos"></a>Proyectos</li>
-                <li><a href="#contacto"></a>Contacto</li>
-            </ul>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#blog">Blog</a>
         </nav>
-        <section class="main" id="inicio">
-            <div class="description">
-                <h3>Sobre Mi</h3>
-                <p>Soy un desarrollador de software fullstack ¿Mi trabajo? resolver problemas :)</p>
-            </div>
-            <img class="Gogo-image" src="" alt="Fotografia de Diego Jimenez" width="300" height="300">
-        </section>
-        <section class="technologies" id="tecnologias">
-            <div class="tech-card">
-                <img class="tech-image" src="" alt="html image" height="50" width="50">
-                <span class="tech-name">HTML</span>
-            </div>
-        </section>
-        <section class="projects" id="proyectos">
-            <div class="project-card">
-                <img class="project-image" src="" alt="html image" height="100" width="100">
-                <span class="project-name">Nombre del projecto</span>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam ipsum quis nulla laoreet, fermentum blandit urna cursus. Curabitur tincidunt ligula ut eros rhoncus ornare et in felis. Fusce felis turpis, mattis ac felis vitae, pellentesque consectetur dolor. Praesent volutpat lorem sem, eget vestibulum tortor pharetra id. Maecenas faucibus ullamcorper dictum. Curabitur vitae varius est, eu congue metus. Curabitur sollicitudin quam eget risus ultricies sollicitudin. Nulla eu leo pellentesque augue cursus porta.</p>
-            </div>
-        </section>
-        <section class="contact" id="contacto">
-            <form action="post">
-                <label for="name">Nombre:</label>
-                <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required>
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-                <label for="message">Mensaje:</label>
-                <textarea name="message" id="message" cols="50" rows="10"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
     </header>
+    
+    <div class="container">
+        <section id="inicio" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Soy un ingeniero de software especializado en backend con .NET, desarrollo de APIs y migraciones de servidores.</p>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2>Proyectos</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto y tecnologías utilizadas.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto y tecnologías utilizadas.</p>
+            </div>
+        </section>
+
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Publicaciones recientes sobre desarrollo en .NET, mejores prácticas y más.</p>
+        </section>
+    </div>
 </body>
 </html>
