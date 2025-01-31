@@ -1,22 +1,117 @@
-html {
-  font-size: 14px;
+/* Estilos generales */
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1e1e1e;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.mainTitle {
+  margin: 0;
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
 }
 
+/* Main Content */
+.container {
+  padding: 50px 30px;
+  max-width: 900px;
+  margin: auto;
+  flex: 1;  
+}
+
+/* Secctions */
+.section {
+  margin-bottom: 50px;
+}
+
+.project {
+  background-color: #242424;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #1e1e1e;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.footer-container footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 32px;
+  padding: 15px 30px;
+}
+
+.footer-social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-media .icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Footer setting always below content */
 body {
-  margin-bottom: 60px;
+  min-height: 100vh;
+}
+
+
+/* Index container*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-item{
+  flex: 1;
+}
+.hero h2{
+  font-size: 1.8em;
+  margin: 4px 0 0 0;
+}
+.hero span{
+  font-size: 0.9em;
+}
+.hero img{
+  border-radius: 50%;
+  max-width: 300px;
+}
+.hero hr{
+  width: 100%;
+  height: 1px;
+}
+hr {
+  background-image: linear-gradient(to right,transparent,#ffffff,transparent);
+  border: 0;
+  height: .1rem;
+  max-width: 100%
 }
