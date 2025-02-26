@@ -1,0 +1,31 @@
+/* Single elements*/
+@import url("./base/_typography.css");
+@import url("./base/_reset.css");
+@import url("./base/_variables.css");
+@import url("./base/_utilities.css");
+
+/* All Pages elements*/
+@import url("./layout/_header.css");
+@import url("./layout/_footer.css");
+
+/* General Style */
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main Content */
+.container {
+  padding: 50px 30px;
+  max-width: 900px;
+  margin: auto;
+  flex: 1;  
+}
+
