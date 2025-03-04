@@ -2,73 +2,77 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="presentation-card">
-    <div class="hero">
-        <img src="img/Gogo_cascade_opt.jpg" alt="Diego Jimenez Gonzalez picture" class="my-image hero-item">
-        <h2 class="Name-title hero-item">Diego Jimenez Gonzalez</h2>
-        <hr/>
-        <span class="Name-subtitle hero-item">Software engineer</span>
+<div class="container">
+    <div class="presentation-card">
+        <div class="hero">
+            <img src="img/Gogo_cascade_opt.jpg" alt="Diego Jimenez Gonzalez picture" class="my-image hero-item">
+            <h2 class="Name-title hero-item">Diego Jimenez Gonzalez</h2>
+            <hr />
+            <span class="Name-subtitle hero-item">Software engineer</span>
+        </div>
+        <hr />
+        <div>
+            <p>Hi, I'm Diego, a Software Developer with over 3 years of experience in the software industry.</p>
+            <p>
+                I was born in 2000 and grew up in Naucalpan, Estado de México, México.
+                My passion for electronics and technology began when I played my first video game.
+                I'm a naturally curious person who enjoys understanding how things are built and how science has shaped the world we live in today.
+            </p>
+            <p>
+                Currently, I work as a Software Engineer specializing in .NET technologies, developing desktop,
+                frontend, and backend solutions tailored to business needs.
+            </p>
+        </div>
     </div>
-    <hr/>
+
     <div>
-        <p>Hi, I'm Diego, a Software Developer with over 3 years of experience in the software industry.</p>
-        <p>I was born in 2000 and grew up in Naucalpan, Estado de México, México. 
-            My passion for electronics and technology began when I played my first video game.
-            I'm a naturally curious person who enjoys understanding how things are built and how science has shaped the world we live in today.</p>
-        <p>Currently, I work as a Software Engineer specializing in .NET technologies, developing desktop,
-            frontend, and backend solutions tailored to business needs.</p>
+        <div class="tech-stack">
+            <h3>Technologies</h3>
+            <ul>
+                <li>C#</li>
+                <li>.NET</li>
+                <li>JS</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+            </ul>
+        </div>
     </div>
-</div>
-
-<div>
-    <div class="tech-stack">
-        <h3>Technologies</h3>
-        <ul>
-            <li>C#</li>
-            <li>.NET</li>
-            <li>JS</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>React</li>
-        </ul>
+    <div>
+        <div class="projects-preview">
+            <h3>Projects</h3>
+            <ul>
+                <li>
+                    <div class="project-card">
+                        <img src="" alt="project image">
+                        <h4>Project Name</h4>
+                        <p>Description</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-card">
+                        <img src="" alt="project image">
+                        <h4>Project Name</h4>
+                        <p>Description</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-card">
+                        <img src="" alt="project image">
+                        <h4>Project Name</h4>
+                        <p>Description</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
-
-<div>
-    <div class="projects-preview">
-        <h3>Some of my projects</h3>
-        <ul>
-            <li>
-                <div class="project-card">
-                    <img src="" alt="project image">
-                    <h4>Project Name</h4>
-                    <p>Description</p>
-                </div>
-            </li>
-            <li>
-                <div class="project-card">
-                    <img src="" alt="project image">
-                    <h4>Project Name</h4>
-                    <p>Description</p>
-                </div>
-            </li>
-            <li>
-                <div class="project-card">
-                    <img src="" alt="project image">
-                    <h4>Project Name</h4>
-                    <p>Description</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-
-<div>
-    <div class="contact-form">
-        <form asp-action="Index">
-            <label for="Contact">Contact</label><input id="Contact" type="text">
-            <label for="Email">Email</label><input id="Email" type="text">
-            <button type="submit">Submit</button>
-        </form>
+    <div>
+        <div class="contact-form">
+            <form asp-action="Index">
+                <label for="Contact">Contact</label><input id="Contact" type="text">
+                <label for="Email">Email</label><input id="Email" type="text">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </div>
 </div>

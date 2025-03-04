@@ -8,6 +8,9 @@
 @import url("./layout/_header.css");
 @import url("./layout/_footer.css");
 
+/*Main page*/
+@import url(./pages/home.css);
+
 /* General Style */
 html, body {
   font-family: Arial, sans-serif;
